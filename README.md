@@ -49,21 +49,22 @@ In this repository, you can find the Schematics, Gerber file, pick and place(if 
 
 ## Components:
 
-* MCU: Artery AT32F421G8U7 120MHz QFN-28 (4 pcs) [link](https://s.click.aliexpress.com/e/_c4PMPWk9)
-* Mosfet: AONR36366 QFN-8 package (24 pcs) [link](https://s.click.aliexpress.com/e/_c3cixcnL)
-* Gate driver: DRV8300DPWR TSSOP20 (4 pcs) [link](https://s.click.aliexpress.com/e/_c3NqUJhL)
-* 3.3v buck: MP2451DT-LF-Z sop-23-6 [link](https://s.click.aliexpress.com/e/_c3PCEJ6N) (recommended to buy a buck module and harvest all the necessary components, rather than buying the inductor, resistor, and diodes separately)
-* current sense: INA180IDBVR [link](https://s.click.aliexpress.com/e/_c3yf2AqD)
+* MCU: Artery AT32F421G8U7 120MHz QFN-28 [link](https://s.click.aliexpress.com/e/_c4PMPWk9)
+* Mosfet: AONR36366 QFN-8 package [link](https://s.click.aliexpress.com/e/_c3cixcnL)
+* Gate driver: DRV8300DPWR TSSOP20 [link](https://s.click.aliexpress.com/e/_c3NqUJhL)
+* 12V Buck: LM5164DDAR soic-8 [link](https://s.click.aliexpress.com/e/_c3Sop7Lp)
+* 3.3v ldo: AMS1117 sot-89 [link](https://s.click.aliexpress.com/e/_c2wS5Ae7)
+* current sense: INA280A2  [link](https://www.aliexpress.com/item/1005011927472126.html?)
 * Shunt: 2512 3W R001 1MR [Link](https://www.aliexpress.com/item/1005010000851939.html?)
 * Resistors: 10k, 1k, 10R etc 0402 size [link](https://s.click.aliexpress.com/e/_c4mdiRd3)
 * Capacitors: 10uf, 1uf, 100nf, etc 0402 size [Link](https://s.click.aliexpress.com/e/_c3HHiS9r)
 
-## For detailed part list, price, and values checkout [BOM](https://github.com/minhazislamnafi/Nano-2-4s-AM32-ESC/blob/main/BOM.csv)
+## For detailed part list, price, and values checkout [BOM]()
 
 ## PCB
 Use JLCPCB if you're in ASIA or PCBWAY if you're in America. Also, find what manufacturer is better for you. 
 If you just want to get Flight controller PCB then use this [GARBER file](https://github.com/minhazislamnafi/HvX-120-AM32-ESC/blob/main/PCB/Production/Gerber_16s_120A_am32_esc_v1.1.zip),Download it and place order.
-Or if you just want to build your own PCB, then follow this [SCHEMATICS]().
+Or if you just want to build your own PCB, then follow this [SCHEMATICS](https://github.com/minhazislamnafi/HvX-120-AM32-ESC/blob/main/PCB/Production/SCH_16s%20120A%20am32%20esc_v1.1.pdf).
 
 ## 6 Layers
 
