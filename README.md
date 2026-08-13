@@ -36,3 +36,50 @@ An ESC that will run on AM32 firmware. Specs: up to 120A, 16s (65v).Supports ESC
 * Current sensing: INA280A2 
 
 * Shunt : 3 2512 1 mOhm 3W in parallel to get 0.33mOhm and 9W
+
+# Why 16s 120A ESC?
+HvX 120 is an open-source ESC hardware design provided by the Alka_Motor_32 project. It can be self-replicated with only some soldering and firmware-uploading skills, which the majority of DIY hobiest already have. if you want to make a drone that will go over 300kmph or a 12s monster of power speed car thats power demand will insanely high and you dont want to spend crazy 1000$ only for the ESC, Hvx 120 is for you. A conventional HV/I ESC will cost you around 80-130$. But if you build HvX 120 16s AM32 ESC, you can get 5 ESCs at ~170$; that's only costing around 35$ each:). Also, as you are building it, it would be very easy to fix one if damaged.
+
+# Documentations
+In this repository, you can find the Schematics, Gerber file, pick and place(if you plan to use PCBA from PCB manufacturer), and all the components you need(aka BOM) files, along with all the steps to build your own 16s 120A ESC. Also, if you want to make a small but 4IN1 2-4s 25A ESC then checkout [Nano-2-4s-AM32-ESC](https://github.com/minhazislamnafi/Nano-2-4s-AM32-ESC).
+
+# Quick Start
+
+## Requirements
+
+## Components:
+
+* MCU: Artery AT32F421G8U7 120MHz QFN-28 (4 pcs) [link](https://s.click.aliexpress.com/e/_c4PMPWk9)
+* Mosfet: AONR36366 QFN-8 package (24 pcs) [link](https://s.click.aliexpress.com/e/_c3cixcnL)
+* Gate driver: DRV8300DPWR TSSOP20 (4 pcs) [link](https://s.click.aliexpress.com/e/_c3NqUJhL)
+* 3.3v buck: MP2451DT-LF-Z sop-23-6 [link](https://s.click.aliexpress.com/e/_c3PCEJ6N) (recommended to buy a buck module and harvest all the necessary components, rather than buying the inductor, resistor, and diodes separately)
+* current sense: INA180IDBVR [link](https://s.click.aliexpress.com/e/_c3yf2AqD)
+* Shunt: 2512 3W R001 1MR [Link](https://www.aliexpress.com/item/1005010000851939.html?)
+* Resistors: 10k, 1k, 10R etc 0402 size [link](https://s.click.aliexpress.com/e/_c4mdiRd3)
+* Capacitors: 10uf, 1uf, 100nf, etc 0402 size [Link](https://s.click.aliexpress.com/e/_c3HHiS9r)
+
+## For detailed part list, price, and values checkout [BOM](https://github.com/minhazislamnafi/Nano-2-4s-AM32-ESC/blob/main/BOM.csv)
+
+## PCB
+Use JLCPCB if you're in ASIA or PCBWAY if you're in America. Also, find what manufacturer is better for you. 
+If you just want to get Flight controller PCB then use this [GARBER file](),Download it and place order.
+Or if you just want to build your own PCB, then follow this [SCHEMATICS]().
+
+## 6 Layers
+
+## PCB render
+
+## FOLLOW THESE STEPS ##
+
+**1. Spend some money $$ to buy the parts mentioned in [BOM]().**
+
+**2. Order the Nano ESC PCB using this [GERBER file]().**
+
+**3. Solder the SMD components of the PCB by hand ;) Or just order the PCBs with PCBA services, btw it will cost a lot.**
+
+**4. Solder 18 AWG wire with xt30 connector to the power pads.**
+
+**5. Check with multimeter- Is mcu getting 3.3v or not, if not diagnose by yourself :)**
+
+**6. Flash each MCU with AM32 firmware using Stlink v2 programmer ( I will add every step in details, once I have built IRL:)**
+
