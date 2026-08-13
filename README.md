@@ -62,7 +62,7 @@ In this repository, you can find the Schematics, Gerber file, pick and place(if 
 
 ## PCB
 Use JLCPCB if you're in ASIA or PCBWAY if you're in America. Also, find what manufacturer is better for you. 
-If you just want to get Flight controller PCB then use this [GARBER file](),Download it and place order.
+If you just want to get Flight controller PCB then use this [GARBER file](https://github.com/minhazislamnafi/HvX-120-AM32-ESC/blob/main/PCB/Production/Gerber_16s_120A_am32_esc_v1.1.zip),Download it and place order.
 Or if you just want to build your own PCB, then follow this [SCHEMATICS]().
 
 ## 6 Layers
@@ -73,7 +73,7 @@ Or if you just want to build your own PCB, then follow this [SCHEMATICS]().
 
 **1. Spend some money $$ to buy the parts mentioned in [BOM]().**
 
-**2. Order the Nano ESC PCB using this [GERBER file]().**
+**2. Order the Nano ESC PCB using this [GERBER file](https://github.com/minhazislamnafi/HvX-120-AM32-ESC/blob/main/PCB/Production/Gerber_16s_120A_am32_esc_v1.1.zip).**
 
 **3. Solder the SMD components of the PCB by hand ;) Or just order the PCBs with PCBA services, btw it will cost a lot.**
 
