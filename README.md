@@ -68,6 +68,9 @@ Or if you just want to build your own PCB, then follow this [SCHEMATICS](https:/
 
 ## 6 Layers
 
+<img width="1920" height="1908" alt="HvX 120A 6 layer render" src="https://github.com/user-attachments/assets/6d5c2af8-d58c-4311-b74f-704e36a03c1c" />
+
+
 ## PCB render
 
 ## FOLLOW THESE STEPS ##
