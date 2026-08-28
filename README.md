@@ -89,4 +89,5 @@ Or if you just want to build your own PCB, then follow this [SCHEMATICS](https:/
 
 ## Special thanks to-
 EasyEDA-OSHWLab (sponsored by)
+
 Hackclub 
