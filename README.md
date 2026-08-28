@@ -87,3 +87,6 @@ Or if you just want to build your own PCB, then follow this [SCHEMATICS](https:/
 
 **6. Flash each MCU with AM32 firmware using Stlink v2 programmer ( I will add every step in details, once I have built IRL:)**
 
+## Special thanks to-
+EasyEDA-OSHWLab (sponsored by)
+Hackclub 
